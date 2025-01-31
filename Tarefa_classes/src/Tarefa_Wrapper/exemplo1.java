@@ -6,9 +6,8 @@ public class exemplo1 {
         int num = 250;
         System.out.println(num);
 
-        Integer num1 = Integer.valueOf(250);
-        num = num1;
-        System.out.println(num);
+        Integer num1 = num;
+        System.out.println(num1);
 
 
     }
